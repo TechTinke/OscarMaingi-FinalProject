@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rental Property Connect</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <script src="main.js"></script>
+    <script src="auth.js"></script>
+    <script src="chat.js"></script>
+    <script src="reviews.js"></script>
+    <script src="admin.js"></script>
+    <header>
+      <h1>RENTAL PROPERTY WEBSITE</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="profile.html">User Profile</a></li>
+          <li><a href="agent-profile.html">Agent Profile</a></li>
+          <li><a href="messages.html">Messages</a></li>
+          <li><a href="ratings-reviews.html">Reviews</a></li>
+          <li><a href="notifications.html">Notifications</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="help-center.html">Help</a></li>
+          <li><a href="terms-privacy.html">Privacy</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="search-bar">
+        <label for="county-search">Search Agents by County:</label>
+        <select id="county-search">
+          <option value="nairobi">Nairobi</option>
+          <option value="kisumu">Kisumu</option>
+          <option value="mombasa">Mombasa</option>
+        </select>
+        <button id="search-agents">Search Agents</button>
+        <div id="agent-list"></div>
+      </section>
+      <section class="how-it-works">
+        <h2>How It Works</h2>
+        <p>1. Enter your location.</p>
+        <p>2. Browse recommended real estate agents.</p>
+        <p>3. Contact agents and find your perfect home.</p>
+      </section>
+
+      <section class="featured-agents">
+        <h2>Top-Rated Agents</h2>
+        <p>Meet some of our highly rated and trusted real estate agents.</p>
+        <div class="agent-list"></div>
+      </section>
+    </main>
+  </body>
+</html>
